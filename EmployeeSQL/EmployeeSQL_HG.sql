@@ -165,3 +165,10 @@ SELECT last_name, COUNT(last_name) AS "Frequency"
 FROM employees
 GROUP BY last_name
 ORDER BY "Frequency" DESC;
+
+---------------------------------------------------------------------------------------
+-- BONUS QUESTION (for rest of investigation please see jupyter notebook)
+---------------------------------------------------------------------------------------
+SELECT * FROM employees
+WHERE emp_no = 499942;
+
